@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial;
+            font-size: 15px;
+        }
+
+        .container {
+            position: relative;
+            width: 100%;
+
+        }
+
+        .container img {
+            vertical-align: 50%;
+            object-fit: fill;
+        }
+
+        .container .content {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: rgb(0, 0, 0);
+            /* Fallback color */
+            background: rgba(0, 0, 0, 0.5);
+            /* Black background with 0.5 opacity */
+            color: #f1f1f1;
+            width: 50%;
+            height: 98%
+        }
+
+        h1 {
+            color: burlywood;
+            margin-top: 30%;
+        }
+
+        button {
+            border-radius: 20px;
+            font-size: 20px;
+            border-color: chocolate;
+            background-color: #8b00007a;
+            box-shadow: inset;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="project images\coffeeimg.jpg" alt="Notebook" width="100%" height="100%">
+        <div class="content">
+            <h1>BEST COFFEE </h1>
+            <H2>from all over the world</H2>
+            <p>
+                welcome to COFFEE WORLD.If you are looking for coffee receipe or coffee shop.
+                then you have landed at the correct page.
+                our company offers wide range of different coffee receipes and as well as
+                here you can order you favourite coffee from our store.
+                grab your perfect COFFEE NOW </p>
+            <button class="button" onclick="document.location='landingpage2.html'"> lets get started</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

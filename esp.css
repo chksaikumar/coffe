@@ -1,0 +1,46 @@
+body{
+    margin:50px;
+}
+h1{
+    background-color:#E4D4C8;
+    color:#533440;
+    font-size:50px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+p{
+    font-size: 20px;
+    font-family: segoe print;
+    color:rgb(15, 7, 1);
+}
+ul li{
+    color:rgb(15, 7, 1);
+    font-size:24px;
+    font-family: ink free;
+    font-weight:bold;
+    margin:20px;
+}
+h2{
+    color:#523A28;
+    font-size:30px;
+    font-family:lucida calligraphy;
+}
+ol li{
+    font-size: 22px;
+    font-family: rockwell;
+    list-style-type:square ;
+    margin:20px;
+    color:rgb(15, 7, 1)
+}
+h3{
+    font-size: 28px;
+    font-family: comic sans ms;
+    list-style-type:none ;
+    color:#9C2D41;
+}
+h4{
+    font-size: 28px;
+    font-family: bradley hand itc;
+    list-style-type:none ;
+    color:#AB6B51;
+}

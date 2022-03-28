@@ -1,0 +1,88 @@
+  
+   ul {  
+    background-color: rgb(248, 203, 136);  
+    border-radius: 4px;  
+    list-style: none;  
+    display: flex;  
+    align-items: center;  
+    justify-content: center;  
+    box-shadow: -7px 9px 17px 0px #00000017;  
+   }  
+   li a {  
+    display: inline-block;  
+    padding: 10px 20px;  
+    text-decoration: none;  
+    color: black;  
+   }  
+   li:hover a {  
+    color: crimson;  
+   }  
+   nav {  
+    position: relative; 
+    
+   }  
+   .icon {  
+       text-align: center;font-size:40px;
+    position: absolute;  
+    top: 40%;
+    transform: translateY(-50%);  
+    right: -80px;  
+    height: 60px;  
+    width: 60px;  
+    border-radius: 50%;  
+    background-color:burlywood;  
+     
+    background-position: center;  
+    background-repeat: no-repeat;  
+    background-size: 50%;  
+    cursor: pointer;  
+    box-shadow: 0px 0px 17px 0px #00000017;  
+    transition: 0.5s ease transform;  
+   }  
+   .icon.close {  
+    transform: translateY(-50%) rotate(360deg);  
+    
+   }  
+   ul {  
+    width: 0px;  
+    overflow: hidden;  
+    transform: translateX(50px);  
+    opacity: 0;  
+    pointer-events: none;  
+    transition: 0.5s ease;  
+    padding: 20px;  
+   }  
+   nav.show ul {  
+    width: 450px;  
+    transform: translate(0px);  
+    opacity: 1;  
+    pointer-events: all;  
+   }  
+   nav {  
+    position: absolute;  
+    top: 10px;  
+    left: 100px;  
+   }  
+   @media only screen and (max-width: 768px) {  
+    body {  
+     font-size: 14px;  
+    }  
+    li a {  
+     padding: 5px 10px;  
+    }  
+    nav ul {  
+     padding: 15px;  
+    }  
+    nav.show ul {  
+     width: 260px;  
+    }  
+    .icon {  
+     width: 45px;  
+     height: 45px;  
+     right: -50px;  
+    }  
+    nav {  
+     top: 10px;  
+     left: 60px;  
+    }  
+   }  

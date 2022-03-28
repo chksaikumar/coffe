@@ -1,0 +1,54 @@
+body{
+    margin:50px;
+}
+p{
+    font-size:20px;
+  font-family:comic sans ms;
+  font-weight:20px;
+  margin:10px;
+}
+h1{
+    background-color:#E4D4C8;
+    color:#533440;
+    font-size:50px;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+}
+h2{
+    color:#7B583D;
+    font-size:50px;
+    font-family: 'Cookie', cursive;
+}
+.p1 img{
+    float:right;
+    padding:0 20px 20px 20px;
+    height:400px;
+    width:50%;
+}
+ul li{
+    color:rgb(15, 7, 1);
+    font-size:24px;
+    font-family: ink free;
+    font-weight:bold;
+    margin:10px;
+    list-style-type:square;
+}
+ol li{
+    font-size: 22px;
+    font-family: rockwell;
+    list-style-type:square ;
+    margin:20px;
+    color:rgb(15, 7, 1)
+}
+.p2 img{
+    float:right;
+    padding:0 20px 0 20px;
+    height:450px;
+    width:35%;
+}
+div{
+    font-family: rockwell;
+    font-size: 22px;
+    margin:10px;
+    color:rgb(15, 7, 1);
+}

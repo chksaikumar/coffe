@@ -1,0 +1,80 @@
+<html>
+
+<head>
+  <title>🥯sides</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="homepage.css">
+  <link rel="stylesheet" href="nav.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="hotbrewmenu.html">HOT BREW</a></li>
+        <li><a href="coldbrewmenu.html">COLD BREW</a></li>
+        <li><a href="sides.html">SIDES</a></li>
+      </ul>
+      <div class="icon">☕ </div>
+    </nav>
+  </header><br>
+  <script>const icon = document.querySelector(".icon");
+    const nav = document.querySelector("nav");
+    icon.addEventListener("click", () => {
+      icon.classList.toggle("close");
+      nav.classList.toggle("show");
+    }); </script>
+  <div class="row">
+    <div class="column">
+      <div class="card">
+        <img src="project images\choco&oreo.jpg" alt="oreo" height="230px">
+        <div class="container">
+          <h2>DOUGHNUT</h2>
+          <p class="title">CHOCO&OREO</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+          <p><button class="button" onclick="document.location=''">order now</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="project images\croissant.jpg" alt="americano" height="230px">
+        <div class="container">
+          <h2>CROSISSANT</h2>
+          <p class="title">bread</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+          <p><button class="button" onclick="document.location=''">order now</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="project images\browine.jpg" alt="coffee" height="230px">
+        <div class="container">
+          <h2>BROWINE </h2>
+          <p class="title">chococake</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+          <p><button class="button" onclick="document.location=''">order now</button></p>
+        </div>
+      </div>
+    </div>
+    <div class="column">
+      <div class="card">
+        <img src="project images\chococake.jpg" alt="coffee" height="230px">
+        <div class="container">
+          <h2>CHOCOCAKE </h2>
+          <p class="title">cake</p>
+          <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+
+          <p><button class="button" onclick="document.location=''">order now</button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
